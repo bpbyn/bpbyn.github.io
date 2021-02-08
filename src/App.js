@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="personal-info">
+          Test
           <Greetings/>
           <Navigation/>
           <Contact/>
