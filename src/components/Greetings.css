@@ -12,8 +12,9 @@
 .greetings__details {
   color: #7fdbca;
   font-family: 'Roboto Mono', monospace;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0 5px;
+  line-height: 2;
 }
 
 .greetings__details a {

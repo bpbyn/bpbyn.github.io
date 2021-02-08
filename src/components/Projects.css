@@ -34,7 +34,8 @@
 .projects-list-item-rectangle {
     background-color: #222b3d;
     border-radius: 15px;
-    width: 510px;
+    /* width: 510px; */
+    width: 100%;
     justify-self: right;
     margin: 0 0 15px 15px;
     display: flex;
