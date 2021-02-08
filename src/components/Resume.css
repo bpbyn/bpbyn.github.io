@@ -1,0 +1,42 @@
+.resume {
+    align-items: center;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffffeb;
+    margin: 0 0 50px 0;
+}
+
+.hrline{
+    flex-grow: 1;
+}
+
+hr {
+    height: 1px;
+    background-color:#77889941;
+    border: none;
+    margin-right: 10px;
+}
+.righthand {
+    display: flex;
+    align-items: center;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; 
+    cursor: pointer;   
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.righthand img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.righthand:hover {
+    transform: translateX(8px);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #222b3d;
+    color: #7fdbca;
+}

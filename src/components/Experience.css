@@ -1,0 +1,44 @@
+.experience {
+    display: flex;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    height: 150px;
+    margin-bottom: 70px;
+    
+}
+
+.exp-label {
+    margin-right: 26px;
+}
+
+.jobs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    
+}
+
+.company-timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;    
+}
+
+.company a {
+    text-decoration: none;
+    color:#ffffffeb;
+}
+
+.timeline {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+}
+
+.role {
+    padding: 2px 0;
+    /* margin-bottom: 20px; */
+}

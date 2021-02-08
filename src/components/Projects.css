@@ -1,0 +1,62 @@
+.projects {
+    height: 200px;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#82aaff;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+
+.projects-list-item {
+    background-color: #222b3d;
+    border-radius: 15px;
+    flex: 1;
+    margin: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: #ffffffeb;
+}
+
+/* .projects-list-item-rectangle will be deleted  */
+
+.projects-list-item-rectangle {
+    background-color: #222b3d;
+    border-radius: 15px;
+    width: 510px;
+    justify-self: right;
+    margin: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-flow: column;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: #ffffffeb;
+}
+
+.projects-list-item > img, .projects-list-item-rectangle > img {
+    height: 70px;
+    width: 70px;
+}
+
+
+.projects-list-item:hover, .projects-list-item-rectangle:hover{
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -webkit-transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+}

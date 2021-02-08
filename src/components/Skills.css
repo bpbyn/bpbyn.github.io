@@ -1,0 +1,38 @@
+.skills {
+    height: 200px;
+}
+
+.skills__category__label {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#ffffffeb;
+}
+
+.title-color {
+    color: #7fdbca;
+}
+
+
+.skills__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    flex: 1;
+}
+
+.skills__category__label > ul {
+    list-style: none;
+    padding:0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.skills__category__item {
+    /* color: #637777; */
+    color: #ffffffeb;
+    letter-spacing: 0;
+    padding: 1px;
+   
+}

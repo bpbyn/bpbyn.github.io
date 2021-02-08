@@ -1,0 +1,66 @@
+.greetings {
+  flex-direction: column;
+}
+
+.greetings__hello {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 75px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.greetings__details {
+  color: #7fdbca;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.greetings__details a {
+  text-decoration: none;
+  color: #7fdbca;
+  line-height: 2;
+}
+
+.wave {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* .wave:hover {
+  animation-name: wave-animation;  
+  animation-duration: 1s;        
+} */
+
+.wave-onload {
+  animation-name: wave-animation;  
+  animation-duration: 1s;  
+}
+
+@keyframes wave-animation {
+  from {
+    transform: none;
+  }
+  15% {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+  30% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+  }
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+  }
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+  }
+  to {
+    transform: none;
+  }
+}
+
