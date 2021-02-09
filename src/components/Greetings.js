@@ -45,7 +45,7 @@ const Greetings = () => {
         </p>
 
         <p className="greetings__details">
-          <a><strong><u>When not working</u></strong></a>, I usually do stuff like recording bedroom music, 
+          <strong><u>When I'm not working</u></strong>, I usually do stuff like recording bedroom music, 
           jogging (health is wealth!) and hanging out with friends. Cheers!
         </p>
         

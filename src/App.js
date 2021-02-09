@@ -17,12 +17,15 @@ function App() {
       </div>
       <div className="grid-container">
         <div className="professional-info">
+          <div className="switch">
+            <button></button>
+          </div>
           <Experience/>
           <Skills/>
           <Resume/>
           <Projects/>
-          
-          
+
+
         </div>
       </div>
     </div>
