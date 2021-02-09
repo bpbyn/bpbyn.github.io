@@ -13,26 +13,29 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
 import { lightTheme, darkTheme } from './theme';
 import Switch from './components/Switch';
+import useDarkMode from './components/useDarkMode';
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, toggleTheme, componentMounted] = useDarkMode();
+  const themeMode = theme === 'light' ? lightTheme : darkTheme;
   
-  const toggleTheme = () => {
-    theme === 'light' ? setTheme('dark') : setTheme('light')
-  }
+  if (!componentMounted) {
+    return <div />
+  };
 
   return (
-    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+    <ThemeProvider theme={themeMode}>
       <>
       <GlobalStyles/>
         <div className="App">
           <div className="personal-info">
-              <Greetings/>
+              <Greetings theme={theme}/>
               <Navigation/>
               <Contact/>
           </div>
           <div className="grid-container">
-            <div className="professional-info">      
+            <div className="professional-info"> 
+                 
               <Switch theme={theme} toggleTheme={toggleTheme} />
               <Experience/>
               <Skills/>

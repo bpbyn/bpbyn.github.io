@@ -13,7 +13,7 @@ const Link = styled.a`
     line-height: 2;
 `;
 
-const Greetings = () => {
+const Greetings = ({theme}) => {
     const ref = useRef(null);
 
     const waveOnLoad = (node) => {

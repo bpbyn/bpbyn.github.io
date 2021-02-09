@@ -22,7 +22,8 @@ const Toggle = styled.button`
     img {
         height: 35px;
         width: 35px;
-        transition: all 0.4s ease-in-out;
+        padding: 2px;
+        transition: all 0.1s ease-in-out;
         object-fit: contain;
 
         // sun icon
@@ -34,7 +35,7 @@ const Toggle = styled.button`
         
         // moon icon
         &:nth-child(2) {
-            transform: ${({ lightTheme }) => lightTheme ? 'translateY(40px)' : 'translateY(0px)'};
+            transform: ${({ lightTheme }) => lightTheme ? 'translateX(40px)' : 'translateX(0px)'};
             visibility: ${({ lightTheme }) => lightTheme ? 'hidden' : 'visible'};
         }
         

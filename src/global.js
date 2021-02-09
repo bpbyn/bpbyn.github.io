@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    transition: all 0.4s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
 
   a {
