@@ -9,7 +9,7 @@ const Box = styled.div`
 
 const projects = () => (
     <>
-    <div className="projects container">
+    <div className="projects container" id="#projects">
         <div className="projects-label title-color">
             PROJECTS 
         </div> 

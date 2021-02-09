@@ -2,7 +2,7 @@ import React from 'react';
 import './Experience.css';
 
 const experience = () => (
-    <div className="experience container">
+    <div className="experience container" id="experience">
         <div className="exp-label title-color">
             EXPERIENCE
         </div>

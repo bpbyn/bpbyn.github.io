@@ -35,7 +35,7 @@ const Toggle = styled.button`
         
         // moon icon
         &:nth-child(2) {
-            transform: ${({ lightTheme }) => lightTheme ? 'translateX(40px)' : 'translateX(0px)'};
+            transform: ${({ lightTheme }) => lightTheme ? 'translateX(30px)' : 'translateX(0px)'};
             visibility: ${({ lightTheme }) => lightTheme ? 'hidden' : 'visible'};
         }
         

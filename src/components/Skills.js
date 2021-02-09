@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 
 const skills = () => (
-    <div className="skills container">
+    <div className="skills container" id="#skills">
         <div className="skills__category">
             <div className="skills__category__label title-color">SKILLS</div>
         </div>

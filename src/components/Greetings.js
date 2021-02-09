@@ -13,7 +13,7 @@ const Link = styled.a`
     line-height: 2;
 `;
 
-const Greetings = ({theme}) => {
+const Greetings = () => {
     const ref = useRef(null);
 
     const waveOnLoad = (node) => {
@@ -53,6 +53,11 @@ const Greetings = ({theme}) => {
             <Link href="https://www.dxc.technology/" target="_blank" rel="noopener noreferrer">DXC Technology</Link>
           </strong>
           . I like learning new technologies specifically with web development. 
+        </Greet>
+        <Greet className="greetings__details">
+          Lately, I've been learning React a lot and I find myself really interested to it. 
+          I've made this project to further heighten my knowledge and skills with React. 
+          I hope you like it! 
         </Greet>
 
         <Greet className="greetings__details">

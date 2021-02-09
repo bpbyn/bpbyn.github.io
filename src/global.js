@@ -17,4 +17,10 @@ export const GlobalStyles = createGlobalStyle`
       text-decoration: none;
       color: ${({ theme }) => theme.text};
   }
+
+  svg {
+      stroke: ${({ theme }) => theme.greetingsColor};
+      height: 50px;
+      width: 50px;
+  }
   `

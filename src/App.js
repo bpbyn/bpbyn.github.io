@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 
 import Experience from './components/Experience';
 import Greetings from './components/Greetings';
@@ -18,7 +17,7 @@ import useDarkMode from './components/useDarkMode';
 function App() {
   const [theme, toggleTheme, componentMounted] = useDarkMode();
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
-  
+
   if (!componentMounted) {
     return <div />
   };
