@@ -1,6 +1,11 @@
 import React from 'react';
 import './Projects.css';
-import wip from  '../assets/work-in-progress.png'
+import wip from  '../assets/work-in-progress.png';
+import styled from "styled-components";
+
+const Box = styled.div`
+    background-color: ${({ theme }) => theme.boxColor}; 
+`;
 
 const projects = () => (
     <>
@@ -9,14 +14,14 @@ const projects = () => (
             PROJECTS 
         </div> 
         <div className="projects-list">
-            <div className="projects-list-item">
+            <Box className="projects-list-item">
                 <img src={wip} alt="wip"/>
                 <span>Work In Progress</span>
-            </div>
-            <div className="projects-list-item">
+            </Box>
+            <Box className="projects-list-item">
                 <img src={wip} alt="wip"/>
                 <span>Work In Progress</span>
-            </div>                      
+            </Box>                      
         </div> 
     </div>
     {/* JUST ADDITIONAL FLEXBOX FOR FUTURE USE */}
@@ -24,24 +29,24 @@ const projects = () => (
         <div className="projects-label title-color" style={{visibility: 'hidden', marginLeft:'30px'}}>
             PROJECTS 
         </div> 
-        <div className="projects-list-item-rectangle" >
+        <Box className="projects-list-item-rectangle" >
             <img src={wip} alt="wip"/>
             <span>Work In Progress</span>
-        </div>   
+        </Box>   
     </div>
     <div className="projects container">
         <div className="projects-label title-color" style={{visibility: 'hidden'}}>
             PROJECTS 
         </div> 
         <div className="projects-list">
-            <div className="projects-list-item">
+            <Box className="projects-list-item">
                 <img src={wip} alt="wip"/>
                 <span>Work In Progress</span>
-            </div>
-            <div className="projects-list-item">
+            </Box>
+            <Box className="projects-list-item">
                 <img src={wip} alt="wip"/>
                 <span>Work In Progress</span>
-            </div>                      
+            </Box>                      
         </div> 
     </div>
     </>

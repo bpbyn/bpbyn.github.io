@@ -1,6 +1,17 @@
 import React, { useEffect, useRef } from 'react';
 import './Greetings.css';
 import wave from '../assets/waving-hand.png';
+import styled from "styled-components";
+
+const Greet = styled.p`
+    color: ${({ theme }) => theme.greetingsColor};    
+`;
+
+const Link = styled.a`
+    color: ${({ theme }) => theme.greetingsColor};    
+    text-decoration: none;
+    line-height: 2;
+`;
 
 const Greetings = () => {
     const ref = useRef(null);
@@ -36,18 +47,18 @@ const Greetings = () => {
             alt="wave"/><br/>
           I'm Brian.
         </div>
-        <p className="greetings__details">
+        <Greet className="greetings__details">
           I'm a Technology Consultant II currently working for {' '}
           <strong>
-            <a href="https://www.dxc.technology/" target="_blank" rel="noopener noreferrer">DXC Technology</a>
+            <Link href="https://www.dxc.technology/" target="_blank" rel="noopener noreferrer">DXC Technology</Link>
           </strong>
           . I like learning new technologies specifically with web development. 
-        </p>
+        </Greet>
 
-        <p className="greetings__details">
+        <Greet className="greetings__details">
           <strong><u>When I'm not working</u></strong>, I usually do stuff like recording bedroom music, 
           jogging (health is wealth!) and hanging out with friends. Cheers!
-        </p>
+        </Greet>
         
       </div>
     );

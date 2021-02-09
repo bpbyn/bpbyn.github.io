@@ -7,11 +7,10 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 2px;
-    color:#ffffffeb;
 }
 
 .title-color {
-    color: #7fdbca;
+    color: #44BBA5;
 }
 
 
@@ -30,8 +29,6 @@
 }
 
 .skills__category__item {
-    /* color: #637777; */
-    color: #ffffffeb;
     letter-spacing: 0;
     padding: 1px;
    

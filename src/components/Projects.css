@@ -4,7 +4,6 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 2px;
-    color:#82aaff;
 }
 
 .projects-list {
@@ -15,7 +14,6 @@
 }
 
 .projects-list-item {
-    background-color: #222b3d;
     border-radius: 15px;
     flex: 1;
     margin: 0 0 15px 15px;
@@ -26,7 +24,6 @@
     cursor: pointer;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
-    color: #ffffffeb;
 }
 
 /* .projects-list-item-rectangle will be deleted  */
@@ -46,7 +43,6 @@
     cursor: pointer;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
-    color: #ffffffeb;
 }
 
 .projects-list-item > img, .projects-list-item-rectangle > img {

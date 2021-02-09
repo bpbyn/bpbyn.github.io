@@ -4,7 +4,6 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 2px;
-    color: #ffffffeb;
     margin: 0 0 50px 0;
 }
 
@@ -21,8 +20,8 @@ hr {
 .righthand {
     display: flex;
     align-items: center;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; 
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
     cursor: pointer;   
     padding: 10px;
     border-radius: 15px;
@@ -31,12 +30,12 @@ hr {
 .righthand img {
     width: 30px;
     margin-right: 10px;
+    object-fit: contain;
 }
 
 .righthand:hover {
     transform: translateX(8px);
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    background-color: #222b3d;
-    color: #7fdbca;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #44BBA5;
 }

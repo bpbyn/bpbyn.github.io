@@ -10,16 +10,9 @@
 }
 
 .greetings__details {
-  color: #7fdbca;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   padding: 0 5px;
-  line-height: 2;
-}
-
-.greetings__details a {
-  text-decoration: none;
-  color: #7fdbca;
   line-height: 2;
 }
 
@@ -29,12 +22,8 @@
   width: 60px;
   cursor: pointer;
   margin-left: 10px;
+  object-fit: contain;
 }
-
-/* .wave:hover {
-  animation-name: wave-animation;  
-  animation-duration: 1s;        
-} */
 
 .wave-onload {
   animation-name: wave-animation;  
