@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="contact container">
         <div className="contact__title">Let's be internet friends!</div>
         
-        <div class="contact__socmed">
+        <div className="contact__socmed">
             <img src={me} alt="me" />
             <div>
                 <a href="https://github.com/bpbyn" target="_blank" rel="noopener noreferrer">
