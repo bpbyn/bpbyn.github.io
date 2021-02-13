@@ -5,8 +5,8 @@
     font-weight: 500;
     letter-spacing: 2px;
     height: 150px;
-    margin: 55px 0 70px 0;
-    
+    margin: 40px 0 70px 0;
+    min-width: 540px;
 }
 
 .exp-label {
@@ -35,4 +35,35 @@
 
 .role {
     padding: 2px 0;
+}
+
+@media all and (max-width: 768px) {
+    .experience {
+        display: flex;
+        flex-direction: column;
+        min-width: 400px;
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+    .jobs {
+        padding-top: 20px;
+    }
+
+    .exp-wrapper {
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .experience, .timeline {
+        font-size: 12px;
+    }
+
+    .company-timeline {
+        flex-direction: column;
+    }
+
+    .experience {
+        margin-top: 50px;
+    }
 }

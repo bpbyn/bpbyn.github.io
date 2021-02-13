@@ -8,14 +8,15 @@
   line-height: 1;
   font-weight: 400;
   margin-bottom: 20px;
+  width: 400px;
 }
 
 .greetings__details {
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
-  padding: 0 5px;
   line-height: 2;
   margin: 8px 0;
+  width: 400px
 }
 
 .wave {
@@ -56,3 +57,33 @@
   }
 }
 
+@media all and (max-width: 1024px) {
+
+  .greetings {
+    width: 100%;
+  }
+  .greetings__hello {
+    margin-bottom: 40px;
+  }
+
+  .greetings__details {
+    width: 85%;
+    padding-right: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .greetings__hello {
+    font-size: 60px;
+  }
+
+  .greetings__details {
+    font-size: 12px;
+  }
+
+  .wave {
+    width: 45px;
+    height: 45px;
+  }
+}

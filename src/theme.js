@@ -1,5 +1,5 @@
 export const lightTheme = {
-    body: '#FFFFFF',
+    body: '#F8F8FF',
     text: '#363537',
     toggleBorder: '#FFF',
     greetingDetails: '#363537',

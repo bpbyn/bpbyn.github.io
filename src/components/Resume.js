@@ -12,10 +12,12 @@ const RightHand = styled.div`
 const resume = () => (
     <div className="resume container">
         <div className="hrline"><hr/></div>
-        <RightHand className="righthand">
-            <img src={righthand} alt="right"/>
-            RESUME HERE
-        </RightHand>
+            <a href="https://bpbyn.github.io/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <RightHand className="righthand">
+                    <img src={righthand} alt="right"/>
+                    RESUME HERE
+                </RightHand>
+            </a>
     </div>
 );
 

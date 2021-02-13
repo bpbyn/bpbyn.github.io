@@ -9,8 +9,8 @@ const Toggle = styled.button`
     outline: none;
     border-radius: 30px;
     cursor: pointer;
-    width: 75px;
-    height: 35px;
+    width: 55px;
+    height: 25px;
     padding: 0;
 
     display: flex;
@@ -20,8 +20,8 @@ const Toggle = styled.button`
     background-color: ${({ lightTheme }) => lightTheme ? '#D3D3D3' : '#BAE67E'};
 
     img {
-        height: 35px;
-        width: 35px;
+        height: 25px;
+        width: 25px;
         padding: 2px;
         transition: all 0.1s ease-in-out;
         object-fit: contain;

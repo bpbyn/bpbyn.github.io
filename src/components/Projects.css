@@ -30,7 +30,6 @@
 
 .projects-list-item-rectangle {
     border-radius: 15px;
-    /* width: 510px; */
     width: 100%;
     justify-self: right;
     margin: 0 0 15px 15px;
@@ -49,10 +48,25 @@
     width: 70px;
 }
 
-
 .projects-list-item:hover, .projects-list-item-rectangle:hover{
     transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     -webkit-transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media all and (max-width: 768px) {
+    .projects {
+        font-size: 12px;
+    }
+
+    .projects-list-item, .projects-list-item-rectangle {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .projects-list-item > img, .projects-list-item-rectangle > img{
+        height: 60px;
+        width: 60px;
+    }
 }

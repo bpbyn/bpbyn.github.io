@@ -9,6 +9,10 @@
     letter-spacing: 2px;
 }
 
+.skills__category {
+    padding-right: 10px;
+}
+
 .title-color {
     color: #44BBA5;
 }
@@ -17,7 +21,7 @@
 .skills__wrapper {
     display: flex;
     justify-content: space-between;
-    margin-left: 70px;
+    margin-left: 60px;
     flex: 1;
 }
 
@@ -30,6 +34,23 @@
 
 .skills__category__item {
     letter-spacing: 0;
-    padding: 1px;
-   
+    padding: 1px;  
+}
+
+@media all and (max-width: 768px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .skills__wrapper {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .skills__category__label, .skills__category__label > ul {
+        font-size: 12px;
+    }
 }
