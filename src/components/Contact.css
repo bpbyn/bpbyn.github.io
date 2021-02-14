@@ -46,13 +46,14 @@
 
 @media all and (max-width: 1024px) {
     .contact {
-        margin: 80px 0 60px 0;
+        /* margin: 80px 0 60px 0; */
+        margin-top: 20px;
     }
 }
 
 @media all and (max-width: 768px) {
     .contact {
-        margin: 40px 0 50px 0;
+        /* margin: 0; */
     }
 }
 

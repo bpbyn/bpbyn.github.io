@@ -62,8 +62,4 @@
     .company-timeline {
         flex-direction: column;
     }
-
-    .experience {
-        margin-top: 50px;
-    }
 }

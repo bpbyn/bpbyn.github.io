@@ -63,7 +63,7 @@
     width: 100%;
   }
   .greetings__hello {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .greetings__details {
@@ -73,6 +73,17 @@
   }
 }
 
+@media all and (max-width: 768px) {
+  /* .greetings__hello {
+    margin-bottom: 10px;
+  } */
+  .greetings__details {
+    width: 450px;
+    padding-right: 0;
+  }
+}
+
+
 @media all and (max-width: 500px) {
   .greetings__hello {
     font-size: 60px;
@@ -80,6 +91,7 @@
 
   .greetings__details {
     font-size: 12px;
+    width: 100%;
   }
 
   .wave {

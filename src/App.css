@@ -50,8 +50,8 @@ body {
 
 @media all and (max-width: 1200px) {
   .personal-info {
-    padding: 70px 0 0 20px;
-    left: 20px;
+    padding: 70px 0 0 40px;
+    left: 0;
   }
 
   .professional-info {
@@ -66,20 +66,37 @@ body {
 
 @media all and (max-width: 1024px) {
   .grid-container {
-    grid-template-columns: auto;
+    display: flex;
+    padding: 0 40px 0 40px;
+    /* grid-template-columns: auto; */
+
   }
 
   .personal-info {
-    display: block;
+    /* display: block;
     position: relative;
-    padding: 50px 0 0 20px;
-    width: 100%;
+    padding-top: 50px;
+    width: 100%; */
+
+    display: flex;
+    position:relative;
+    left: unset;
+    width: unset;
+    flex-direction: column;
   }
 
   .professional-info {
-    grid-column-start: 1;
+    flex-grow: 1;
+    padding-top: 0;
+    /* grid-column-start: 1;
     padding: 0 40px 0 40px;
-    max-width: 90%;
+    max-width: 90%; */
   }
 
 }
+
+/* @media all and (max-width: 400px) {
+  .grid-container {
+    margin-top: 140px;
+  }
+} */
