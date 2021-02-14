@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c2424bd.chunk.css",
+    "main.js": "/static/js/main.f541c774.chunk.js",
+    "main.js.map": "/static/js/main.f541c774.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b90f3f17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b90f3f17.js.map",
+    "static/js/2.fd1bf514.chunk.js": "/static/js/2.fd1bf514.chunk.js",
+    "static/js/2.fd1bf514.chunk.js.map": "/static/js/2.fd1bf514.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6c2424bd.chunk.css.map": "/static/css/main.6c2424bd.chunk.css.map",
+    "static/js/2.fd1bf514.chunk.js.LICENSE.txt": "/static/js/2.fd1bf514.chunk.js.LICENSE.txt",
+    "static/media/full-moon.2e3cc40d.png": "/static/media/full-moon.2e3cc40d.png",
+    "static/media/full-sun.2e779a49.png": "/static/media/full-sun.2e779a49.png",
+    "static/media/me.38a02108.png": "/static/media/me.38a02108.png",
+    "static/media/waving-hand.924c685c.png": "/static/media/waving-hand.924c685c.png",
+    "static/media/work-in-progress.74fb472c.png": "/static/media/work-in-progress.74fb472c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b90f3f17.js",
+    "static/js/2.fd1bf514.chunk.js",
+    "static/css/main.6c2424bd.chunk.css",
+    "static/js/main.f541c774.chunk.js"
+  ]
+}
